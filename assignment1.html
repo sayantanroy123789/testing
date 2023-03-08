@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+      let x=  React.createElement('div',{id:"main", style:{
+        padding:"30px",
+        backgroundColor:"#D1D1D1",
+        height:"280px",
+        width:"1000px"
+    }},[
+        React.createElement('h2',null,"Learn web development"),
+        React.createElement('p',null,"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A perferendis corrupti, totam culpa veritatis rerum iusto suscipit esse deserunt. Voluptas explicabo veritatis quam porro distinctio eos debitis, quibusdam nisi recusandae!"),
+        React.createElement('p',null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eius beatae deleniti, eos velit ut dicta officia sed maxime ipsa harum accusamus odit reprehenderit laudantium porro. Cumque voluptatem atque quasi dolore alias veritatis quae laudantium, repellendus temporibus labore omnis. Asperiores, dolore excepturi voluptate aut placeat facilis omnis sed tenetur numquam sit velit nemo dicta. Libero.",React.createElement('a',{href:"MDN.com"},"the rest of MDN")," ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae pariatur assumenda doloribus vero ab provident fugiat, aliquam necessitatibus soluta."),
+
+        React.createElement('p',null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex eos odio quaerat officiis laborum deserunt dolores. Ex saepe distinctio pariatur, incidunt minima error consectetur minus nobis, explicabo dicta aut reprehenderit animi magni deserunt aspernatur quibusdam sunt facilis maxime tempore optio fugit! Architecto vel, adipisci nobis quas autem voluptatibus officiis itaque aut consequatur eaque ex beatae dolore quibusdam alias ut. Et, at, debitis culpa repellat est magnam ducimus quos rem tempora, autem iure quaerat quam officia reiciendis aut voluptates accusamus?")
+      ])
+        ReactDOM.render(x,document.getElementById('root'))
+    </script>
+    
+
+    
+</body>
+</html>
